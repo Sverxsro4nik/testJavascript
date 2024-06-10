@@ -16,6 +16,12 @@ const config = {
 
 	// Automatically clear mock calls, instances, contexts and results before every test
 	clearMocks: true,
+	testEnvironment: 'node',
+	// A list of paths to modules that run some code to configure or set up the testing framework before each test
+	setupFilesAfterEnv: ['jest-extended/all'],
+	// Indicates which provider should be used to instrument code for coverage
+	coverageProvider: 'v8',
+	// The test environment that will be used for testing
 
 	// Indicates whether the coverage information should be collected while executing the test
 	// collectCoverage: false,
@@ -30,9 +36,6 @@ const config = {
 	// coveragePathIgnorePatterns: [
 	//   "\\\\node_modules\\\\"
 	// ],
-
-	// Indicates which provider should be used to instrument code for coverage
-	coverageProvider: 'v8',
 
 	// A list of reporter names that Jest uses when writing coverage reports
 	// coverageReporters: [
@@ -135,17 +138,11 @@ const config = {
 	// The paths to modules that run some code to configure or set up the testing environment before each test
 	// setupFiles: [],
 
-	// A list of paths to modules that run some code to configure or set up the testing framework before each test
-	// setupFilesAfterEnv: [],
-
 	// The number of seconds after which a test is considered as slow and reported as such in the results.
 	// slowTestThreshold: 5,
 
 	// A list of paths to snapshot serializer modules Jest should use for snapshot testing
 	// snapshotSerializers: [],
-
-	// The test environment that will be used for testing
-	testEnvironment: 'node',
 
 	// Options that will be passed to the testEnvironment
 	// testEnvironmentOptions: {},

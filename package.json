@@ -12,7 +12,8 @@
 	"license": "ISC",
 	"devDependencies": {
 		"isomorphic-fetch": "^3.0.0",
-		"jest": "^29.7.0"
+		"jest": "^29.7.0",
+		"jest-extended": "^4.0.2"
 	},
 	"dependencies": {
 		"koa": "^2.15.3",
